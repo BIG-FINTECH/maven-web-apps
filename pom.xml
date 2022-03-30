@@ -18,10 +18,11 @@
 
 	<properties>
 		<jdk.version>1.8</jdk.version>
-		<spring.version>5.1.2.RELEASE</spring.version>
+		//<spring.version>5.1.2.RELEASE</spring.version>
+		<spring.version>5.1.2</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.31.80.25:9000/</sonar.host.url>
+		<sonar.host.url>http://54.204.207.230:9000//</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.158.178.131:8081/repository/jenkins-release/</url>
+	      <url>http://54.211.70.9:8081/repository/big-bank-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.158.178.131:8081/repository/jenkins-snapshot/</url>
+	      <url>http://54.211.70.9:8081/repository/big-bank-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
