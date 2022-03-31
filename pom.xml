@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.211.210.221:8081/repository/02big-bank-Release/</url>
+	      <url>http://54.211.210.221:8081/repository/job4agent-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.211.210.221:8081/repository/02big-bank-Snapshot/</url>
+	      <url>http://54.211.210.221:8081/repository/job4agent-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
